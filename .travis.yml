@@ -2,9 +2,8 @@ language: java
 jdk:
  - oraclejdk8
 notifications:
-email:
-recipients:
-- dinaguan1018@gmail.com
-on_success: always
-on_failure: always
-
+  email:
+    recipients:
+      - ldeng@towson.edu
+    on_success: never # default: change
+    on_failure: always # default: always
