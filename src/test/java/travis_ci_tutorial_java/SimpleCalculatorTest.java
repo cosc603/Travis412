@@ -18,6 +18,12 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.add(1, 1), 0);
 	}
 	
+	@Test
+	public void testAdd3() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.add(1, 1), 2);
+	}
+	
 //	@Test
 //	public void testSub() {
 //		SimpleCalculator calc = new SimpleCalculator();
