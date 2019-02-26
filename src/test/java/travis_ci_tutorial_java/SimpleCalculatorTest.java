@@ -18,6 +18,7 @@ public class SimpleCalculatorTest {
 //		assertEquals(calc.add(1, 1), 0);
 //	}
 	
+	
 	@Test
 	public void testAdd3() {
 		SimpleCalculator calc = new SimpleCalculator();
